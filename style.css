@@ -1,0 +1,162 @@
+body{
+	background-color: #EFEFEF;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro{
+	text-align: justify;
+	padding-left: 10px;
+	margin-bottom: 24px;
+	 font-size: 18px;
+}
+h1{
+	color: #14272e;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: #143109;
+}
+.maison, .numéro{
+	text-align: right;
+}
+
+img{width:180px;
+border-radius: 20px;
+padding-right: 10px;
+}
+.cv{
+	widows: 200px;
+}
+
+.cont, .adresse{
+	width:25px;
+	border-radius: 5px;
+}
+
+a{
+	text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-blue{
+	background-color: blue;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding:30px 20px;
+	border-radius: 10px;
+	color:white;
+	display:inline-block;
+	transition: all 0.4s ease-in-out;
+}
+
+.bouton{
+	background-color: #aaae7f;
+	font-weight: bolder;
+	padding:15px 20px;
+	border-radius: 10px;
+}
+
+.bouton:hover{
+	background-color: black;
+	color: white;
+}
+
+
+.bouton2{
+	background-color: grey;
+	font-weight: bolder;
+	padding:15px 20px;
+	border-radius: 10px;
+	transition: all 0.4s ease-in-out;
+	display:inline-block;
+}
+
+.bouton2:hover{
+	background-color: black;
+	color: white;
+}
+
+h2{
+	color: bleu;
+
+}
+ul{
+	
+/*	padding: 0px;*/
+}
+.card-white{
+	background-color: #D0D8B3;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 40%);
+    border-radius: 4px;
+    text-align: center;
+    margin: 60px auto;
+
+}
+
+ul li{
+	margin: 0 16px;
+	display: inline-block;
+}
+.action{
+	margin: 0 30px;
+	
+}
+.contrainer{
+	width: 700px;
+	margin: 30px auto;
+	padding: 24px;
+}
+
+
+i{
+	font-size: 25px;
+	text-decoration: none;	
+}
+
+.infos {
+	    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.links {
+	padding: 0;
+	list-style: none;
+}
+
+.parcours {
+	display: flex;
+	flex-direction: column;
+
+	text-align: left;
+
+	margin-bottom: 48px;
+}
+
+.parcours li  {
+	line-height: 1.6;
+}
+
+@media(max-width: 960px) {
+	.contrainer{
+			width: 500px;}
+/*	.card-white{
+		background-color: lightblue;
+	}*/
+}
+
+@media(max-width: 540px) {
+	.contrainer{
+			width: 400px;}
+/*	.card-white{
+		background-color: lightblue;
+	}*/
+}
+
+
